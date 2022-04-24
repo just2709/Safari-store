@@ -106,14 +106,14 @@ ul {
     height: 48px;
     line-height: 48px;
     margin-right: 80px;
-    font-size: 1.1vw;
+    font-size: 20px;
 }
 
 .input_search {
     border-width: 0px;
     border-bottom-width: 1px;
     background-color: #F5F5F5;
-    font-size: 1.1vw;
+    font-size: 14px;
 }
 
 #header input:focus {
