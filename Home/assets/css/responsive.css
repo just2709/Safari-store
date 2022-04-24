@@ -1,0 +1,135 @@
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1024px){
+    #header .navbar{
+        margin: 0px;
+        font-size: 1vw;
+    }
+
+    #header .navbar a {
+        margin: 0px;
+    }
+
+    #header .right_navbar {
+        margin: 0px;
+        font-size: 1.8vw;
+    }
+
+    #header .right_navbar .input_search {
+        font-size: 1.8vw;
+    }
+
+    #header .right_navbar .fas {
+        padding: 12px;
+    }
+
+    #content .products {
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-row-gap: 30px;
+        margin: 10px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    #footer {
+        grid-template-columns: auto auto auto;
+        height: auto;
+        grid-row-gap: 30px;
+    }
+
+    #footer .logo img {
+        width: 40%;
+    }
+}
+
+/*PC*/
+/* @media (min-width: 1024px) and (max-width: 1239px) {
+    #content .products {
+        width: 90%;
+        margin: auto;
+    }
+} */
+
+/*big screen*/ 
+/* @media (min-width: 1240px) {
+    #content .products {
+        width: 80%;
+        margin: auto;
+    }
+} */
+
+
+/*Mobile*/
+@media (max-width: 740px){
+
+    #header .navbar li {
+        display: block;
+    }
+
+    #header .mobile_navbar {
+        display: inline-block;
+    }
+
+    #header .right_navbar input {
+        display: none;
+    }
+
+    #header .right_navbar {
+        margin: 0px;
+        font-size: 2.5vw;
+    }
+
+    #header .right_navbar .fas {
+        padding: 10px;
+    }
+
+    #slider {
+        padding-top: 10%;
+    }
+
+    #slider .slider_content {
+        display: none;
+    }
+
+    #slider ul {
+        bottom: 5%;
+    }
+
+    #slider ul li {
+        border-width: 1px;
+    }
+
+    #content .style_shop {
+        display: none;
+    }
+
+    #content .products {
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+        margin: 10px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    p,
+    li {
+        font-size: 14px;
+    }
+
+    #footer {
+        grid-template-columns: auto;
+        height: auto;
+        grid-row-gap: 30px;
+    }
+
+    #footer .logo img {
+        width: 40%;
+    }
+
+    #footer .fab {
+        margin-right: 5px;
+    }
+}

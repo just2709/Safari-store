@@ -1,0 +1,147 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1024px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #header .navbar{
+        margin: 0px;
+        font-size: 1vw;
+    }
+
+    #header .navbar a {
+        margin: 0px;
+    }
+
+    #header .right_navbar {
+        margin: 0px;
+        font-size: 1.8vw;
+    }
+
+    #header .right_navbar .input_search {
+        font-size: 1.8vw;
+    }
+
+    #header .right_navbar .fas {
+        padding: 12px;
+    }
+
+    #content {
+        margin: 10px;
+        margin-top: 80px;
+        position: relative;
+        margin-bottom: 100px;
+        grid-template-columns: auto auto;
+    }
+
+    /* .column {
+        max-width: 50%;
+      } */
+
+    #footer {
+        grid-template-columns: auto auto auto;
+        height: auto;
+        grid-row-gap: 30px;
+    }
+
+    #footer .logo img {
+        width: 40%;
+    }
+}
+
+
+/*Mobile*/
+@media (max-width: 740px){
+    /* [class*="col-"] {
+        width: 100%;
+    } */
+
+    #header .navbar li {
+        display: block;
+    }
+
+    #header .mobile_navbar {
+        display: inline-block;
+    }
+
+    #header .right_navbar input {
+        display: none;
+    }
+
+    #header .right_navbar {
+        margin: 0px;
+        font-size: 2.5vw;
+    }
+
+    #header .right_navbar .fas {
+        padding: 10px;
+    }
+
+    #content {
+        margin: 10px;
+        margin-top: 80px;
+        position: relative;
+        grid-template-columns: 100%;
+    }
+
+    /* .column {
+        flex: 100%;
+        max-width: 100%;
+    } */
+
+    #content .order_summary .title {
+        padding: 0px;
+    }
+
+    #content .orders_information .product_infor p {
+        font-size: 12px;
+    }
+
+    #content .gift .yes_no button {
+        margin-left: 10px;
+    }
+
+    #content input[type="text"],
+    #content select,
+    #content label{
+        width: 100%;
+    }
+
+
+    #footer {
+        grid-template-columns: auto;
+        height: auto;
+        grid-row-gap: 30px;
+    }
+
+    #footer .logo img {
+        width: 40%;
+    }
+
+    #footer .fab {
+        margin-right: 5px;
+    }
+}

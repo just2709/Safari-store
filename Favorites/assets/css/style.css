@@ -1,0 +1,130 @@
+#content {
+    margin: 100px auto 60px auto;
+    display: block;
+    max-width: 1440px;
+}
+
+#content .account_dashboard {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 750px;
+    position: relative;
+}
+
+#content .account_dashboard .title {
+    text-align: center;
+}
+
+#content .account_dashboard .menu li{
+    width: 100%;
+    float: right;  
+    list-style: none;
+    
+}
+
+#content .account_dashboard .menu a{
+    color: #000;
+    text-decoration: none;
+    display: block;  
+    border: 0.5px solid white;
+}
+
+#content .account_dashboard .fas {
+    margin: 20px;
+}
+
+#content .account_dashboard .menu ul li > a:hover{
+    border-color: #ED165F;
+    border-radius: 5px;
+}
+
+#content .account_dashboard .menu ul .active{
+    color: white;
+    background-color: #ED165F;
+    border-radius: 5px;
+}
+
+#content .account_dashboard .sign_out {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    text-align: center;
+    margin-left: -15px;
+}
+
+#content .my_orders {
+    display: block;
+    float: right;
+    padding-left: 5%;    
+}
+
+#content .my_orders .product_list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-column-gap: 5%; */
+    grid-row-gap: 50px;
+}
+
+#content .order_information {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    padding-bottom: 7.5px;
+    position: relative;
+    margin-left: 10px;
+}
+
+#content .order_information img {
+    height: 86px;
+    width: 86px;
+    display: inline-block;
+}
+
+#content .order_information .product_infor {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    top: 20px;
+    
+}
+
+#content .order_information .product_infor h4 {
+    margin: 0px;
+}
+
+#content .order_information .product_infor p {
+    color: #ED165F;
+    margin: 0px;
+}
+
+#content .buy {
+    /* display: inline-block */
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+#content button {
+    width: 50%;
+    border-radius: 6px;
+    background-color: #ED165F;
+    color: white;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+#content .buy a {
+    text-decoration: none;
+    color: #ED165F;
+    text-transform: uppercase;
+    font-size: 14px; 
+}
+
+.fa-times-circle {
+    margin-right: 5px;
+}
+

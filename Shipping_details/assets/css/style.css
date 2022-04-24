@@ -1,0 +1,216 @@
+#content {
+    margin: 100px auto 60px auto;
+    display: block;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 30% auto auto;
+}
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+} */
+
+.column {
+    /* flex: 33.33%;
+    max-width: 33.33%; */
+    padding: 0 10px;
+}
+
+#content .title .fas {
+    margin-right: 15px;
+    color: #ED165F;
+}
+
+#content .title h3{
+    margin-bottom: 50px;
+}
+
+
+#content > div > div:not(.gift, .place_order) {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+#content > div > div {
+    padding: 20px;  
+    /* display: inline-block; */
+}
+
+#content input[type="text"],
+#content select,
+#content label{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#content input[type="text"],
+#content select {
+    margin-top: 16px;
+    margin-bottom: 25px;
+    height: 50px;
+    font-size: 20px;
+    border-width: 1px;
+}
+
+#content .delivery {
+    width: 100%;
+}
+
+#content .delivery h4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#content .payment p{
+    font-size: 14px;
+    
+}
+
+#content h4 label {
+    margin-left: 15px;
+    display: inline-block;
+    width: auto;
+}
+
+#content input[type="radio"] {
+    margin: 0px; 
+}
+
+#content .payment ul li {
+    margin-left: 20px;
+    list-style: circle;
+    font-size: 14px;
+}
+
+#content .order_summary {
+    display: block;
+
+}
+
+#content .order_summary .title {
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+#content .order_summary .title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#content .order_summary .orders_information {
+    border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+
+#content .order_information {
+    margin-bottom: 20px;
+}
+
+#content .order_information img {
+    position: relative;
+    height: 86px;
+    width: 86px;
+    display: inline-block;
+}
+
+#content .order_information .product_infor {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    /* top: 20px; */
+    
+}
+
+#content .order_information .product_infor h4 {
+    margin: 0px;
+}
+
+#content .orders_information .product_infor p {
+    color: #ED165F;
+    margin: 0px;
+}
+
+#content .order_summary span {
+    background-color: rgba(225, 225, 225, 1);
+    width: 22px; height: 17px; 
+    display: inline-block; 
+    text-align: center;
+}
+
+#content .cost {
+    border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+
+#content .cost table, 
+#content .total table{
+    width: 100%;
+}
+
+#content table td:first-child {
+    text-align: left;
+}
+
+#content table td:nth-child(2) {
+    text-align: right;
+}
+
+#content .total td:nth-child(1) {
+    text-transform: uppercase;
+}
+
+#content .total td:nth-child(2) {
+    color: #ED165F;
+}
+
+#content .gift {
+    display: inline-block;
+    width: 100%;
+}
+
+#content .gift a {
+    text-decoration: none;
+    color: #000;
+    line-height: 40px;
+}
+
+#content .gift .yes_no {
+    float: right;  
+}
+
+#content .gift .yes_no button {
+    margin-left: 20px;
+}
+
+#content .gift .yes_no button:active {
+    background-color: #ED165F;
+    color: white;
+}
+
+#content .place_order {
+    display: inline-block;
+    width: 100%;
+    
+}
+
+#content button {
+    width: 47px;
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin: 0px;
+    
+}
+
+#content .place_order button {
+    width: 100%;
+    color: white;
+    background-color: #ED165F;
+    margin: 0px;
+    font-size: 18px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../HeaderFooter.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="icon" href="./assets/images/logo_icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+    <title>Safari store</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="mobile_navbar" class="mobile_navbar">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="right_navbar">
+                <input placeholder="Search..." class="input_search" type="text">
+                <i class="search_icon fas fa-search"></i>
+                <a href="./../Sign-inCreate-account/index.html"><i class="user_icon fas fa-user"></i></a>
+                <a href="./../Cart/index.html"><i class="shopping_icon fas fa-shopping-cart"></i></a>
+                <a href="./../Favorites/index.html"><i class="heart_icon fas fa-heart"></i></a>
+            </div>
+
+            <ul class="navbar">
+                    <li>
+                        <a href="./../Home/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./../Clothes/index.html">Clothes</a>
+                    </li>
+                    <li>
+                        <a href="./../Shoes/index.html">Shoes</a>
+                    </li>
+                    <li>
+                        <a href="./../Accessories/index.html">Accessories</a>
+                    </li>
+            </ul>
+            <div class="logo">
+                <a href="./../Home/index.html"><img src="./assets/images/Logo.png" alt="logo.jpg"></a>
+            </div>
+        </div>
+
+
+        <div id="content">
+            <div class="title">
+                <h1>Hello there!</h1>
+                <p>Please sign in or create account to continue</p>
+            </div>
+
+            <div class="sign_in">
+                <h3>SIGN IN</h3>
+                <div class="formsign_in">
+                    <label for="email">Email</label>
+                    <input type="text">
+                    <label for="password">Password</label>
+                    <input type="text">
+                    <table class="remember">
+                        <td><input style="width: auto; height: auto; zoom: 1.5; margin: 0;" type="checkbox"></td>
+                        <td><label style="width: auto; height: auto; padding-left: 5px;" for="">Remember my details</label></td>
+                    </table>
+                    <a href="./../Account_information/index.html"><button>SIGN IN</button></a>
+                    <a href="">Forgot password?</a>
+                </div>
+            </div>
+
+            <div class="create_account">
+                <h3>CREATE ACCOUNT</h3>
+                <div class="form_create_account">
+                    <label for="">First name</label>
+                    <input type="text">
+                    <label for="">Last name</label>
+                    <input type="text">
+                    <label for="">Email</label>
+                    <input type="text">
+                    <label for="">Create password</label>
+                    <input type="text">
+                    <label for="">Confirm password</label>
+                    <input type="text">
+                    <table class="remember">
+                        <td><input style="width: auto; height: auto; zoom: 1.5; margin: 0;" type="checkbox"></td>
+                        <td><label style="width: auto; height: auto; padding-left: 5px;" for="">I want to receive Safari newsletters with the best deals and offers</label></td>
+                    </table>
+                    <a href="./../Account_information/index.html"><button>CREATE ACCOUNT</button></a>
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="footer">
+            <div class="logo">
+                <img src="./assets/images/Logo.png" alt="">
+            </div>
+
+            <div class="infomation">
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+            </div>
+
+            <div class="social">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a>Facebook</li>
+                <li><a href=""><i class="fab fa-twitter"></i></a>Twitter</li>
+                <li><a href=""><i class="fab fa-instagram"></i></a>Instagram</li>
+            </div>
+
+            <div class="subscribe">
+                <p>Subscribe to our newsletter</p>
+                <div class="email">
+                    <input type="text" placeholder="Email Address">
+                    <button>OK</button>
+                </div>
+            </div>
+
+            <div class="contact">
+                <p>497 Evergreen Rd. Roseville, CA 95673 <br>+44 345 678 903 <br>adobex@gmail.com</p>
+            </div>
+        </div>
+        <div class="overlay" style="display: none; position: fixed; background-color: rgba(0, 0, 0, 0.25); top: 0; right: 0; bottom: 0; left: 0; z-index: 10;">
+            
+        </div>
+        <input class="mobileSearchInput" style="display: none; position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70%;
+            height: 40px;
+            font-size: 20px;
+            padding: 0 10px;
+            outline: none;
+            z-index: 20;" placeholder="Search..." class="input_search" type="text">
+
+    </div>
+
+    <script src="/HeaderFooter.js"></script>
+</body>
+</html>

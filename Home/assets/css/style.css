@@ -1,0 +1,245 @@
+#slider_wrapper {
+    position: relative;
+    width: 100%;
+    max-height: 1000px;
+    overflow: hidden;
+}
+
+#slider {
+    position: relative;
+    height: 100%;
+    /* max-height: 1000px; */
+    display: flex;
+    transition: transform 0.3s linear;
+}
+
+.prev, .next {
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+#slider img {
+    /* height: 100%; */
+    width: 100%;
+    object-fit:fill;
+    flex: 1 0 100%;
+}
+
+#slider_wrapper ul {
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -58.5px;
+
+}
+
+#slider_wrapper .active {
+    background-color: white;
+}
+
+#slider_wrapper ul li {
+    width: 16px;
+    height: 16px;
+    background-color: #ED165F;
+    border-radius: 50%;
+    display: inline-block;
+    list-style: none;
+    border: 2px solid #FFFFFF;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 8px;
+}
+
+#slider_wrapper li:active {
+    background-color: white;
+}
+
+#content {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto 100px;
+}
+
+#content hr {
+    margin-top: 60px;
+    position: relative;
+    border: none;
+    height: 1px;
+    background-color: black;
+}
+
+#content h1 {
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    text-align: center;
+    top: -45px;
+    background-color: white;
+}
+
+.desc {    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#content .products {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 40px;
+}
+
+#content .product {
+    margin: 10px;
+}
+
+.product p {    
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+.img_product {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.products .product_hover a{
+    text-decoration: none;
+    float: left;
+    left: 50%;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.product_hover i {
+    color: #ED165F;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.products .product:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.product:hover img {
+    transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    background-color: rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
+}
+
+.products .product_hover {
+    transition: 0.75s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.product:hover .product_hover {
+    opacity: 1;
+}
+
+.next_page {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.next_page li {
+    display: inline-block;
+    position: relative;
+}
+
+.next_page li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 20px 25px;
+}
+
+.next_page li a:before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid #ED165F;
+    height: 100%;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    z-index: 1;
+    transition: all 0.2s ease-in;
+}
+
+.next_page li a:hover:before {
+    width: 100%;
+}
+
+.next_page li .active {
+    color: white;
+    font-weight: 900;
+    background: #ED165F;
+}
+
+.fa-angle-up {
+    position: sticky;
+    right: 20px;
+    bottom: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 1;
+    float: right;
+    border: 2px solid #ED165F;
+    color: #ed165f;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}

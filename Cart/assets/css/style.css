@@ -1,0 +1,130 @@
+#content {
+    margin: 130px auto 200px auto;
+    display: block;
+    max-width: 1440px;
+    padding: 0 5%;
+}
+
+#content .item_desc .tit {
+    display: grid;
+    grid-template-columns: 50% 15% 20% auto;
+    color: rgba(104, 104, 104, 1);
+    text-align: center;
+    margin-bottom: 10px;
+}   
+
+#content .products_infor { 
+    display: grid;
+    grid-template-columns: 50% 15% 20% auto;
+    margin-bottom: 20px;
+} 
+
+#content .products_infor {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+#content .products_infor > div {
+    padding: 20px;
+    border-right: 1.5px solid #E1E1E1;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 5%;
+}
+
+#content .products_infor > div:nth-child(2),
+#content .products_infor > div:nth-child(3),
+#content .products_infor > div:nth-child(4) {
+    text-align: center;
+    padding: 65px 0px;
+}
+
+#content .order_information {
+    display: grid;
+    grid-template-columns: 86px auto;
+    column-gap: 5%;
+}
+
+#content .item_desc i {
+    padding-right: 5px; 
+    cursor: pointer;
+}
+
+#content .item_desc .add_remove {
+    color: #ED165F;
+    justify-self: end;
+}
+
+#content .order_information img {
+    position: relative;
+    height: 86px;
+    width: 86px;
+    display: inline-block;
+}
+
+#content .order_information .product_infor {
+    align-self: center;
+}
+
+#content .order_information .product_infor h4 {
+    margin: 0px;
+}
+
+#content .order_information .product_infor p {
+    color: rgba(104, 104, 104, 1);
+    margin: 0px;
+}
+
+
+#content .item_desc input{
+    text-align: center;
+    /* width: 80px; */
+    margin: 0 10px;
+    border: none;
+    border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+
+#content td {
+    padding: 20px;
+}
+
+#content .item_desc td:nth-child(2), td:nth-child(3), td:nth-child(4) {
+    text-align: center;    
+}
+
+#content .total {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#content span {
+    color: rgba(104, 104, 104, 1);
+    font-size: 12px;
+}
+
+#content .button_continue {
+    float: right;
+    clear: both;
+}
+
+#content .button_continue button {
+    /* width: 300px; */
+    height: 47px;
+    border-radius: 6px;
+    /* margin-left: 50px; */
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+#content .button_continue .continue_shopping {
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(237, 22, 95, 1)
+}
+
+#content .button_continue .checkout {
+    color: white;
+    background-color: #ED165F;
+    border: 1px solid #ED165F;   
+}

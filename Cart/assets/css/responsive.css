@@ -1,0 +1,44 @@
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1024px){
+    /* #content {
+        margin: 10px;
+        margin-top: 80px;
+        position: relative;
+        margin-bottom: 100px;
+    } */
+}
+
+
+/*Mobile*/
+@media (max-width: 740px){
+    #content {
+        /* margin: 10px; */
+        margin-top: 80px;
+        position: relative;
+    }
+
+    #content .item_desc .tit {
+        display: none;
+    }
+
+
+    #content .products_infor { 
+        grid-template-columns: 100%;
+    } 
+
+
+    #content .products_infor > div:nth-child(2),
+    #content .products_infor > div:nth-child(3),
+    #content .products_infor > div:nth-child(4) {
+        padding: 0px;
+    }
+
+    #content .button_continue button {
+        /* width: 45%; */
+        /* float: right;
+        margin-left: 14px; */
+        padding: 0 5px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

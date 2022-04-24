@@ -1,0 +1,139 @@
+#content {
+    margin: 100px auto 60px auto;
+    display: block;
+    max-width: 1440px;
+}
+
+#content .account_dashboard {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 750px;
+    position: relative;
+}
+
+#content .account_dashboard .title {
+    text-align: center;
+}
+
+#content .account_dashboard .menu li{
+    width: 100%;
+    float: right;  
+    list-style: none;
+}
+
+#content .account_dashboard .menu a{
+    color: #000;
+    text-decoration: none;
+    display: block;  
+    border: 0.5px solid white;
+}
+
+#content .account_dashboard .fas {
+    margin: 20px;
+}
+
+#content .account_dashboard .menu ul li > a:hover{
+    border-color: #ED165F;
+    border-radius: 5px;
+}
+
+#content .account_dashboard .menu ul .active{
+    color: white;
+    background-color: #ED165F;
+    border-radius: 5px;
+}
+
+#content .account_dashboard .sign_out {
+    position: absolute;
+    bottom: 10px;
+    display: block;
+    text-align: center;
+    margin-left: -15px;
+}
+
+#content .my_orders {
+    display: block;
+    float: right;
+    padding-left: 5%;
+
+}
+
+#content .order_infor {
+    display: grid;
+    grid-template-columns: 50% 25% auto;
+    font-size: 14px;
+}
+
+#content .order_infor > div {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+}
+
+#content .form_orders {
+    width: 100%;
+}
+
+#content .form_orders td {
+    padding: 20px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+#content .form_orders h4 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#content .form_orders h5 {
+    margin: 0px;
+    font-size: 16px; 
+}
+
+#content .form_orders p {
+    color: rgba(104, 104, 104, 1);
+}
+
+#content .order_information {
+    display: grid;
+    grid-template-columns: 86px auto;
+    column-gap: 20px;
+}
+
+#content .my_orders .order_information .img_product p {
+    width: 86px;
+    text-align: center;
+    color: white;
+    background-color: rgba(8, 183, 39, 1);
+}
+
+#content .my_orders .order_infor .img_product img{
+    height: 86px;
+    width: 86px;
+}
+
+#content .button_order_again {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#content .button_order_again button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#content .button_order_again button:first-child {
+    color: white;
+    background-color: #ED165F;
+    border: 1px solid #ED165F;
+
+}
+
+#content .button_order_again button:nth-child(2) {
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(237, 22, 95, 1);
+    margin-left: 30px;
+}
